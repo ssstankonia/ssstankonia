@@ -1,0 +1,46 @@
+body {
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://files.catbox.moe/gtwg1g.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    filter: blur(8px); /* Adjust the 8px to change how blurry it is */
+    z-index: -1;
+}
+
+a {
+    color: cyan;
+}
+
+body {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+    color: cyan;
+}
+
+html, body {
+    cursor: url('https://files.catbox.moe/mzo20x.png') 8 8, auto !important;
+}
+
+a, button, input[type="submit"], [role="button"] {
+    cursor: url('https://files.catbox.moe/cw4mit.png') 8 8, pointer !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, li, span, div {
+    cursor: url('https://files.catbox.moe/cw4mit.png) 8 8, text !important;
+}
